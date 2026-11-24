@@ -1,0 +1,4 @@
+@Composable
+fun Hello(name: String?) {
+    Text(text = if (name != null) "Привет, $name!" else "Имя не задано")
+}
